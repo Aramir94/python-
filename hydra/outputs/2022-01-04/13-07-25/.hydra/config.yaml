@@ -1,0 +1,7 @@
+params:
+  epoch_count: 20
+  lr: 5.0e-05
+  batch_size: 120
+files:
+  test_data: test.csv
+  train_data: train.csv

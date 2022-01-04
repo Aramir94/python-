@@ -1,0 +1,8 @@
+params:
+  epoch_count: 20
+  lr: 5e-5
+  batch_size: 120
+
+files:
+  test_data: test.csv
+  train_data: ${hydra:runtime.cwd}../train.csv # 현재 기준으로 액세스 하고 싶을때.. 
